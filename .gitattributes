@@ -1,0 +1,7 @@
+* text=lf
+* eol=lf
+
+spec/*.md linguist-detectable
+SPEC/*.md -linguist-documentation
+
+README.md linguist-generated
