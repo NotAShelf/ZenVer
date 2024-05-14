@@ -1,8 +1,13 @@
 # Zen Versioning Specification
 
-"Zen Versioning" or "Zen Ver" contains a set of rules and requirements that make
-suggestions on how version numbers are assigned and incremented. You can find
-the full document in [spec](spec).
+"Zen Versioning","Zen Ver" or "ZenVer" contains a set of rules and requirements
+that make suggestions on how version numbers are assigned and incremented. You
+can find the full document in [spec](./spec).
+
+## About ZenVer
+
+While the spec has been documented in [spec](./spec), the main motivations for
+ZenVer has been documented in [about](doc/ABOUT.md).
 
 ## Contributing
 
