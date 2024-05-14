@@ -122,3 +122,7 @@ Sure, see [CONTRIBUTING](CONTRIBUTING.md).
 
 No, and yes. ZenVer is a joke, plain and simple. But you are welcome to use it
 for any project that you might want to version in a straightforward manner.
+
+### What is poz?
+
+See [poz](./poz.md)
