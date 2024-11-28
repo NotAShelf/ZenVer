@@ -39,13 +39,13 @@ aims to be simple, elegant or "zen".
 ― From [https://semver.org](https://semver.org/#introduction)
 
 On paper, this all seems great. Except for one problem: all of that is
-**bullshit**[^2]. The clear solution, as most of my peers who have formerly
-worked on designing a good versioning specification fail to realise[^3], is to
-avoid complications while versioning our software, and obviously, to increment
+**bullshit**. The clear solution, as most of my peers who have formerly worked
+on designing a good versioning specification fail to realise[^1], is to avoid
+complications while versioning our software, and obviously, to increment
 `VERSION` every time you make a change to remain as straightforward as possible.
 To remain Zen.
 
-> API documentation this, minor revision that. BULLSHIT[^4].
+> API documentation this, minor revision that. BULLSHIT[^2].
 
 We will see that the underlying problem in existing versioning specifications is
 that there is no good, consistent specification that is not demanding of the
@@ -58,9 +58,9 @@ require more from the developer.
 
 To all problems previously (poorly) addressed by SemVer and ZeroVer, ZenVer
 proposes a simple set of rules that are based on _necessarily_ pre-existing
-widespread common practices in use in both closed and open-source software[^5].
+widespread common practices in use in both closed and open-source software[^3].
 
-For this system to work, you must know _how numbers work_[^6]. That is about
+For this system to work, you must know _how numbers work_[^4]. That is about
 all, you need not to document anything, nor to enforce it by the code itself.
 
 Once you identify your own software (i.e. software that you are working on),
@@ -75,7 +75,7 @@ the earth may increment VERSION by one if you are not careful.
 > needs of a developer and propose that if you are, in any given time, feeling a
 > bit down, then you may consider bumping VERSION arbitrarily to feel better.
 
-In former iterations of this specification, some users that _major_[^7] changes
+In former iterations of this specification, some users that _major_[^5] changes
 do not impose the sense of importance that they need to. To that, ZenVer's
 answer is incrementing: not by one, but by two (or perhaps more) depending on
 how major the change really is.
@@ -88,6 +88,9 @@ The field of software development has long been littered with overcomplicated
 versioning specifications that seem to be invented solely to waste the
 developers' time by inventing made-up requirements that, in truth, nobody has
 the time to follow. Developers are busy people.
+
+> _Some of them are too busy to read this document! By all means, stop reading
+> here if you have gotten the gist of ZenVer already!_
 
 We should consider not only that it takes time to calculate version numbers, but
 also that it takes mental strain: counting is hard. We do not want to spend time
@@ -106,23 +109,44 @@ even dumber specifications a total of 7 people will use.
 
 ## FAQ
 
-### Why make a new spec?
-
-It's funny.
-
 ### What does `z` in versions stand for?
 
-It's short for "zersion".
+It's short for _"zersion"_.
 
 ### Can I contribute?
 
 Sure, see [CONTRIBUTING](CONTRIBUTING.md).
+
+### Why make a new spec?
+
+It's funny.
 
 ### Is this serious? Can I use it?
 
 No, and yes. ZenVer is a joke, plain and simple. But you are welcome to use it
 for any project that you might want to version in a straightforward manner.
 
-### What is poz?
+[^1]:
+    If this has not yet been made obvious to you, then I feel responsible for
+    informing you that **this is a joke**. I harbor no ill will towards SemVer
+    or any other versioning specification. Though, I prefer ZeroVer over SemVer
+    because it has a more interesting premise. You will find obvious references
+    to the ideas behind both specifications.
 
-See [poz](./poz.md)
+[^2]:
+    [An obvious Max0r reference](https://www.youtube.com/watch?v=VkLYPCJogzM)
+    because I find his writing pretty darn funny
+
+[^3]:
+    We should probably learn about versioning from Microsoft. Confused? Take a
+    look at Windows' versioning scheme. At the time of writing, the latest
+    supported revision is `22631.3527`. What the hell does that even mean?
+
+[^4]:
+    If you have having trouble with this, then there is not much ZenVer can do
+    for you. May I suggest revising on your elementary school mathematics?
+
+[^5]:
+    You should ask yourself: how major is my major change? If it's more major
+    than major, then increase the number in accordance. If it's less major than
+    major, then repeat above instructions. I think I'm repeating myself here.
